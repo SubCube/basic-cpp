@@ -7,8 +7,19 @@
 
 #include <iostream>
 
+void variables(){
+    int x = 5;
+    int y = 6;
+    int sum = x + y;
+    
+    std::cout << "x " << x << "\n";
+    std::cout << "y " << y << "\n";
+    std::cout << "sum " << sum << "\n";
+}
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
+//    comments
     std::cout << "Hello, World!\n";
+    variables();
     return 0;
 }
