@@ -7,7 +7,8 @@
 
 #include <iostream>
 
-void variables(){
+void integerVariables(){
+//    Integer (whole numbers)
     int x = 5;
     int y = 6;
     int sum = x + y;
@@ -20,6 +21,6 @@ void variables(){
 int main(int argc, const char * argv[]) {
 //    comments
     std::cout << "Hello, World!\n";
-    variables();
+    integerVariables();
     return 0;
 }
